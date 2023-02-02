@@ -1,0 +1,53 @@
+@media (max-width: 1200px) {
+    .container {
+        flex-wrap: wrap;
+
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    .info h2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .info p {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .container .image {
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+
+@media (max-width: 880px) {
+    .info h2 {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container .image {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .container .image {
+        width: 200px;
+        height: 200px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .info {
+        width: 80vw;
+    }
+}
